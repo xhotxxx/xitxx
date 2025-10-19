@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>সতর্কতা: এটি একটি ১৮+ ওয়েবপেজ</title>
+  <title>18+ Warning Page</title>
   <style>
     body {
       margin: 0;
@@ -13,6 +13,7 @@
       text-align: center;
     }
 
+    /* Popup background */
     #ageWarning {
       position: fixed;
       top: 0; left: 0;
@@ -60,21 +61,26 @@
 </head>
 <body>
 
+  <!-- 18+ Warning Popup -->
   <div id="ageWarning">
-    <h1>১৮+ সতর্কতা</h1>
-    <p>এই ওয়েবসাইটে প্রাপ্তবয়স্কদের জন্য নির্ধারিত কনটেন্ট রয়েছে। অনুগ্রহ করে নিশ্চিত করুন আপনি ১৮ বছর বা তার বেশি বয়সী।</p>
-    <button id="enterBtn">আমি ১৮+ চালিয়ে যান</button>
+    <h1>18+ Age Restriction</h1>
+    <p>This website contains adult content. You must be 18 years or older to enter.</p>
+    <button id="enterBtn">I’m 18+ Continue</button>
   </div>
 
+  <!-- Main Page Content -->
   <div id="mainContent">
-    <h2>স্বাগতম ১৮+ কনটেন্ট পেজে</h2>
-    <p>আপনি এখন প্রাপ্তবয়স্ক কনটেন্ট দেখতে পারবেন।</p>
+    <h2>Welcome to the 18+ Content Page</h2>
+    <p>All content visible now after age verification.</p>
     <img src="https://i.ibb.co/DDmxpvVD/image.jpg" alt="18+ Image" style="width:100%;max-width:600px;border-radius:10px;">
   </div>
 
   <script>
     document.getElementById("enterBtn").addEventListener("click", function() {
+      // Open your Adsterra link in a new tab
       window.open("https://www.effectivegatecpm.com/r2u4b7w27?key=8f496fa6ff37b5a7148b45c225e7b110", "_blank");
+      
+      // Hide the warning and show main content
       document.getElementById("ageWarning").style.display = "none";
       document.getElementById("mainContent").style.display = "block";
     });
