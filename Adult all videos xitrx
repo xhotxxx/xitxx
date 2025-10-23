@@ -1,0 +1,121 @@
+<style>
+/* Global Styles - Modern and Soft Look */
+.premium-movie-container {
+    font-family: 'Poppins', sans-serif; /* A more modern font */
+    text-align: center;
+    padding: 50px 20px;
+    margin: 40px auto;
+    background-color: #f0f0f0; /* Soft, neutral background */
+    border-radius: 20px;
+    max-width: 650px;
+    box-shadow: 10px 10px 30px #bebebe, 
+                -10px -10px 30px #ffffff; /* Neumorphism outer shadow */
+}
+
+/* Header/Title Styling */
+.premium-movie-container h2 {
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.premium-movie-container p.sub-title-pro {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+/* Button Base Style - Neumorphism Effect */
+.pro-action-btn {
+    display: block;
+    width: 90%;
+    max-width: 420px;
+    margin: 25px auto;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+    border: none;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    
+    /* Neumorphism Base */
+    box-shadow: 6px 6px 12px #bebebe,
+                -6px -6px 12px #ffffff; 
+}
+
+/* Button Press Effect (Inner Shadow) */
+.pro-action-btn:active {
+    box-shadow: inset 3px 3px 7px #bebebe,
+                inset -3px -3px 7px #ffffff; 
+    transform: scale(0.98);
+}
+.pro-action-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 8px 8px 16px #bebebe,
+                -8px -8px 16px #ffffff;
+}
+
+/* 1. WATCH VIDEO Button (Bold Red) */
+.watch-video-pro {
+    background-color: #ff4d4d; 
+    color: #ffffff !important;
+}
+.watch-video-pro:hover {
+    background-color: #e60000;
+}
+
+/* 2. DOWNLOAD VIDEO Button (Vibrant Green) */
+.download-video-pro {
+    background-color: #38c172; 
+    color: #ffffff !important;
+}
+.download-video-pro:hover {
+    background-color: #2ca560;
+}
+
+/* 3. JOIN TELEGRAM Button (Telegram Blue) */
+.telegram-join-pro {
+    background-color: #0088cc; 
+    color: #ffffff !important;
+}
+.telegram-join-pro:hover {
+    background-color: #006699;
+}
+
+/* Footer Note */
+.footer-text-pro {
+    margin-top: 40px;
+    color: #888;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+</style>
+
+<div class="premium-movie-container">
+    <h2>🚀 OFFICIAL ACCESS POINT</h2>
+    <p class="sub-title-pro">এই মুভি বা ভিডিওটির জন্য নিচের লিঙ্কগুলি ব্যবহার করুন।</p>
+
+    <a href="https://adultvibehubx.blogspot.com/2025/10/blog-post.html" target="_blank" class="pro-action-btn watch-video-pro">
+        <span style="margin-right: 15px;">▶️</span> FULL VIDEO PLAY
+    </a>
+
+    <a href="https://www.effectivegatecpm.com/xvf4kxbmbj?key=107632677d4c207e8e3ed87078ca05eb" target="_blank" class="pro-action-btn download-video-pro">
+        <span style="margin-right: 15px;">⬇️</span> DOWNLOAD NOW
+    </a>
+
+    <a href="https://t.me/JhalMorich_bot?startapp=6824029719" target="_blank" class="pro-action-btn telegram-join-pro">
+        <span style="margin-right: 15px;">💬</span> JOIN TELEGRAM
+    </a>
+
+    <p class="footer-text-pro">
+        দ্রুত আপডেটের জন্য টেলিগ্রাম চ্যানেলে যুক্ত হয়ে যান।
+    </p>
+</div>
